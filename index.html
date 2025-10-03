@@ -2,173 +2,170 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--=============== CSS ================-->
+    <meta name="description" content="Personal portfolio of Abhinav Srivastava, a Computer Science Engineering student specializing in AI, Machine Learning, Computer Vision, and Deep Learning. Explore projects, research, skills, achievements, and professional experience in medical imaging, legal tech, and more.">
+    <title>Abhinav Srivastava - AI & ML Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--=============== Line Icons ================-->
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
-
-    <!--=============== Swiper CSS ================-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-
-    <title>Abhinav Srivastava</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header class="header" id="header">
-        <nav class="nav container padd-15">
-            <a href="#" class="nav-logo">
-                <h2>Abhinav</h2>
-            </a>
-
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link active-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#experience" class="nav-link">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#research" class="nav-link">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
+    <header>
+        <div class="container">
+            <h1>Abhinav Srivastava</h1>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
+            <button id="theme-button" aria-label="Toggle theme">☀️</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-
-            <div class="nav-btns">
-                    <i class="lni lni-pallet change-theme" id="theme-button"></i>
-                    <div class="nav-toggle" id="nav-toggle">
-                        <i class="lni lni-grid-alt"></i>
-                    </div>
-            </div>
-        </nav>
+        </div>
     </header>
-
-    <!--============= MAIN ==================-->
-    <main class="main-content">
-        <section class="home" id="home">
+    <main>
+        <section id="about" class="reveal">
+            <div class="container about-container">
+                <img src="https://avatars.githubusercontent.com/u/128708125?v=4" alt="Abhinav Srivastava" class="profile-photo">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Aspiring AI and Machine Learning Engineer with a strong foundation in Computer Science and Engineering. Currently pursuing a Bachelor of Technology at Bennett University with a CGPA of 8.17. Passionate about leveraging deep learning, computer vision, and innovative technologies to solve real-world problems in healthcare, legal systems, and beyond. Skilled in Python, PyTorch, TensorFlow, and more, with a focus on research-driven solutions and efficient model optimization.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="reveal">
             <div class="container">
-                <div class="intro">
-                    <img src="assets/img/myPic.jpg" alt="myPic">
-
-                    <h1>Abhinav Srivastava</h1>
-                    <span>I'm an <span class="info-text">Undergrad Student</span></span>
-                    <ul class="social-icons">
-                        <li><a href="#" aria-label="LinkedIn"><i class="lni lni-linkedin"></i></a></li>
-                        <li><a href="#" aria-label="GitHub"><i class="lni lni-github"></i></a></li>
-                        <li><a href="#" aria-label="Google Scholar"><i class="lni lnis-graduation-cap-1"></i></a></li>
-                        <li><a href="#" aria-label="X"><i class="lni lni-x"></i></a></li>
-                        <li><a href="#" aria-label="Medium"><i class="lni lni-medium"></i></a></li>
-                    </ul>
-
-                    <div>
-                        <a href="#" class="btn btn-default">Hire me</a>
-                    </div>
-                    <!--scroll down mouse wheel -->
-                    <div class="scroll-down">
-                        <a href="#" class="mouse-wrapper">
-                            <span>Scroll Down</span>
-                            <span class="mouse">
-                                <span class="wheel"></span>
-                            </span>
-                        </a>
+                <h2>Key Skills</h2>
+                <div class="skills-grid">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">PyTorch</span>
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">Scikit-Learn</span>
+                    <span class="skill-tag">OpenCV</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Kaggle</span>
+                    <span class="skill-tag">Google Cloud</span>
+                    <span class="skill-tag">Deep Learning</span>
+                    <span class="skill-tag">Object-Oriented Design</span>
+                    <span class="skill-tag">Data Structures & Algorithms</span>
+                    <span class="skill-tag">Operating Systems</span>
+                    <span class="skill-tag">Computer Vision</span>
+                    <span class="skill-tag">Research</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Design Thinking</span>
+                    <span class="skill-tag">Critical Thinking</span>
+                    <span class="skill-tag">SDLC</span>
+                    <span class="skill-tag">Complexity Analysis</span>
+                    <span class="skill-tag">Technical Communication</span>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="reveal">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Machine Learning and Deep Learning Training and Internship</h3>
+                        <p>AIQUANTUM Smart Solutions Pvt. Ltd. | May 2024 – July 2024 | NITK Surathkal (Remote)</p>
+                        <ul>
+                            <li>Designed and optimized deep learning models for liver cancer detection and other computer vision tasks (medical imaging, satellite data), leveraging advanced preprocessing and architecture tuning.</li>
+                            <li>Achieved 97.50% accuracy on histopathology image classification using a custom ResNet-50, setting a new dataset benchmark.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!--============= About ==================-->
-        <section class="about section" id="about">
+        <section id="projects" class="reveal">
             <div class="container">
-                <h2 class="section-title padd-15">About Me</h2>
-                    <div class="row">
-                        <div class="about-img padd-15">
-                            <img src="assets/img/download.jpg" alt="">
-                        </div>
-                        <div class="about-content padd-15">
-                            <div class="rounded">
-                                <div class="row">
-                                    <div class="about-text padd-15">
-                                        <p>I’m a final-year Computer Science and Engineering student 
-                                        with hands-on experience in AI, deep learning, and 
-                                        computer vision. I’ve built and deployed projects in medical 
-                                        imaging, generative AI, and deepfake detection, always focusing 
-                                        on practical applications and measurable results.</p>
-                                        <div>
-                                            <a href="#" class="btn btn-default">Download Resume</a>
-                                        </div>
-                                    </div>
-                                    <div class="skills padd-15">
-                                        <div class="row">
-                                            <div class="skill-item">
-                                                <h4>Deep Learning</h4>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 95%; background: rgb(255,209,92);"></div>
-                                                    <div class="skill-percent">95%</div>
-                                                </div>    
-                                            </div>
-                                            <div class="skill-item">
-                                                <h4>Generative AI</h4>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 75%; background: rgb(255,76,92);"></div>
-                                                    <div class="skill-percent">75%</div>
-                                                </div>    
-                                            </div>
-                                            <div class="skill-item">
-                                                <h4>MLOPs</h4>
-                                                <div class="progress">
-                                                    <div class="progress-in" style="width: 25%; background: rgb(108,108,229);"></div>
-                                                    <div class="skill-percent">25%</div>
-                                                </div>    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img class="project-image" src="https://raw.githubusercontent.com/iabhinav108/SafeHeal-Demo/main/segmentation%20and%20classification%20results/segmentation_gradcam_result.png" alt="SafeHeal screenshot">
+                        <h3>SafeHeal</h3>
+                        <p>An AI-powered system for wound segmentation and classification using hybrid UNet-EdgeNeXt and Custom EdgeNeXt-Small models. Achieved 84.85% Dice and 80.42% IoU in segmentation; optimized by hybrid architecture combining spatial and contextual details. Reached 99.14% accuracy, 99 AUC, and 99.05 MCC for wound type classification across 10 classes using a custom EdgeNeXt-S model.</p>
+                        <a href="https://github.com/iabhinav108/SafeHeal-Demo" class="button">GitHub</a>
                     </div>
-                    <div class="row">
-                        <div class="fact-item padd-15">
-                            <i class="lni lni"></i>
-                            <div class="details">
-                                <h3>198</h3>
-                                <p>Project Done</p>
-                            </div>
-                        </div>
-                        <div class="fact-item padd-15">
-                            <i class="lni lni"></i>
-                            <div class="details">
-                                <h3>198</h3>
-                                <p>Project Done</p>
-                            </div>
-                        </div>
-                        <div class="fact-item padd-15">
-                            <i class="lni lni"></i>
-                            <div class="details">
-                                <h3>198</h3>
-                                <p>Project Done</p>
-                            </div>
-                        </div>
+                    <div class="project-card">
+                        <img class="project-image" src="https://raw.githubusercontent.com/iabhinav108/LawSage.AI/main/frontend/static/assets/b6e63aac-5718-49be-8a29-6cfc1562f35b.jpg" alt="LawSage.AI screenshot">
+                        <h3>LawSage.AI</h3>
+                        <p>AI-powered legal assistant for Indian law offering case summarization, query resolution, and statute interpretation. Leverages fine-tuned, quantized LLMs (GPT-2, LLaMA, BERT-BART, Phi-3.5-mini-instruct) for faster legal text processing. Secure, interactive platform enabling authentication, chat history management, and real-time document analysis for legal professionals.</p>
+                        <a href="https://github.com/iabhinav108/LawSage.AI" class="button">GitHub</a>
                     </div>
+                    <div class="project-card">
+                        <img class="project-image" src="https://onlinelibrary.wiley.com/cms/asset/11d2249b-a3a7-4440-902c-8d7e0ac4586c/eng212667-fig-0004-m.png" alt="HemoVeda screenshot">
+                        <h3>HemoVeda</h3>
+                        <p>A real-time anaemia detection system that analyzes eye, palm, fingernail images, and blood reports, achieving 96.06% accuracy. Handles class imbalance with CycleGAN, improves interpretability using Grad-CAM visualizations. Enables mass anemia screening via telemedicine, aligned with GOI’s Anaemia Mukt Bharat initiative.</p>
+                        <a href="https://github.com/iabhinav108/Advait_HemoVeda" class="button">GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <img class="project-image" src="https://incode.com/wp-content/uploads/2024/08/image-deepfake-protection-lg.jpg" alt="Morphe screenshot">
+                        <h3>Morphe</h3>
+                        <p>Detects face-swap deepfakes in real-time with 92.6% classification accuracy. Integrates custom DenseNet-121 with Coordinate Attention and multi-branch RGB, edge, texture inputs. Uses Grad-CAM to localize manipulations, aiding forensic analysis and fact-checking workflows.</p>
+                        <a href="https://github.com/iabhinav108/Morphe" class="button">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="research" class="reveal">
+            <div class="container">
+                <h2>Research & Publications</h2>
+                <ul>
+                    <li><strong>DisasterFormer: An Enhanced Transformer with Edge-Guided Attention for Disaster Image Recognition</strong> - Published at IATMSI-2025 (Conference Paper) | <a href="https://doi.org/10.1109/IATMSI64286.2025.10985468">DOI</a></li>
+                    <li><strong>TriVerseNet: Multi-Branch ResNet Framework for Enhanced Endoscopic Lesion Classification via Edge and Texture Integration</strong> - Published at NETCRYPT-25 (Conference Paper) | <a href="https://doi.org/10.1109/NETCRYPT65877.2025.11102233">DOI</a></li>
+                    <li><strong>A Small-Scale ConvNeXt Variant Optimized for Pneumonia Classification on Chest X-Ray Images</strong> – Accepted and Presented at IACIS-2025 (Conference Paper)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="achievements" class="reveal">
+            <div class="container">
+                <h2>Achievements & Certifications</h2>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Fundamentals of Deep Learning – Nvidia</li>
+                    <li>TensorFlow Developer – DeepLearning.AI</li>
+                    <li>Exploratory Data Analysis for Machine Learning (Honors) – IBM</li>
+                    <li>Data Structures & Algorithmic Toolbox – University of California San Diego</li>
+                </ul>
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Participated in HackCBS 7.0, with a project recognized for innovation and selected among the best in the Vultr Title Sponsor Track, demonstrating technical excellence and impactful problem-solving.</li>
+                    <li>Contributed significantly to a team's Top 50 finish in the HackWars Hackathon at Chandigarh University, competing against 1500+ teams nationwide and advancing to the offline showcase round.</li>
+                    <li>Solved 100+ competitive programming based question across multiple platforms like LeetCode, HackerRank, GFG.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="reveal">
+            <div class="container">
+                <h2>Contact</h2>
+                <!-- <p>Email: <a href="mailto:abhinavsrivastava950@gmail.com">abhinavsrivastava950@gmail.com</a></p>
+                <p>Phone: +91 7084704764</p> -->
+                <p>LinkedIn: <a href="https://linkedin.com/in/abhinav2520">linkedin.com/in/abhinav2520</a></p>
+                <p>GitHub: <a href="https://github.com/iabhinav108">github.com/iabhinav108</a></p>
             </div>
         </section>
     </main>
-
-
-    <!--============= Swiper JS ==================-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <footer>
+        <div class="container">
+            <p>Abhinav Srivastava</p>
+            <p>AI and Machine Learning Enthusiast</p>
+            <p>© 2025 Abhinav Srivastava. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="assets/js/main.js"></script>
-    
 </body>
 </html>
